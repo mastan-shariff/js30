@@ -3,6 +3,5 @@
 - This a realistic clock has roman numbers to show hours
 - Also integrated tick sound for each second
 - Also gives bell sound for each hour
-  
-![Local Image](C:\Users\MASTHAN\Videos\Captures\wallclock.mp4)
+
 
