@@ -4,3 +4,4 @@
 - Also integrated tick sound for each second
 - Also gives bell sound for each hour
   
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
