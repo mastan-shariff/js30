@@ -1,10 +1,10 @@
 # CSS variables
 
--In this  project user can change some properties of an image like blur,space,backgroundcolor.
--This is done with progress bars.
--User will be given access to pull and change the progressbar according to the property one wants to change.
--In this project mainly eventlisteners such as input event is used .
--Also template strings are also used.
+-In this  project user can change some properties of an image like blur,space,backgroundcolor
+-This is done with progress bars
+-User will be given access to pull and change the progressbar according to the property one wants to change
+-In this project mainly eventlisteners such as input event is used 
+-Also template strings are also used
 
 ![Live link](https://shariff-cssvariables.netlify.app/)
 
