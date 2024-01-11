@@ -4,6 +4,7 @@
 - Also integrated tick sound for each second
 - Also gives bell sound for each hour.
 - Due to autoplay policy of some browsers you might require to click anywhere inside your window to get audio.
+
 [Live Link](https://shariff-wallclock.netlify.app/)
 
 
