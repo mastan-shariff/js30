@@ -10,6 +10,6 @@
 
 -Also template strings are also used
 
-![Live link](https://shariff-cssvariables.netlify.app/)
+[Live link](https://shariff-cssvariables.netlify.app/)
 
 ![Sample Snapshot](https://github.com/mastan-shariff/js30/assets/92875375/ace4da11-def2-4113-aeb3-3db5beb71e0d)
