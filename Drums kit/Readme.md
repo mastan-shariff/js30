@@ -6,3 +6,4 @@ Also includes a sound genrating graphic image as background
 
 [Live Link](https://shariff-drumkit.netlify.app/)
 
+![Drumskit](https://github.com/mastan-shariff/js30/assets/92875375/5c8ec020-0ae0-4fc8-8d05-b23f0ccbb1be)
