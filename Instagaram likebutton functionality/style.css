@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(108, 219, 249);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.parent
+{
+    background: #ffffff;
+    height: 500px;
+    overflow-y: auto;
+   
+
+}
+.parent::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+    
+    
+  }
+  
+  .parent::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    height: min-content;
+    border-radius: 2px;
+   
+    
+  }
+  
+  .parent::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+  
+  .parent::-webkit-scrollbar-corner {
+    background-color: #ccc;
+  }
+
+
+.child{
+    width: 300px;
+    /* height: 500px; */
+    background: #ffffff;
+    /* text-align: center; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+}
+
+.child img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.child button{
+    background: #4380fa;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.child h2{
+    color: red;
+    font-weight: 500;
+
+}
+.child h1{
+    color: rgb(111, 3, 253);
+    font-weight:800;
+}
+
+.profilepic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-left:20px;
+    padding-top: 20px;
+}
+
+.profilepic img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    border:2px solid rgb(255, 0, 225);
+    padding: 2px;
+}
+
+.options{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+   
+}
+
+#activity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#activity svg{
+    margin-right: 8px;
+}
+.options {
+    align-self:self-end;
+   
+}
+
+#heart{
+    width: 100px;
+    height: 100px;
+    /* scale: 1; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* z-index: 99; */
+    transform: translate(-50%,-50%);
+    /* display: none; */
+    /* transition: all; */
+
+   
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+.animate{
+    animation: scaleup 2s ease-in-out 0.2ms 1 reverse forwards;
+}
+@keyframes scaleup {
+    0%{
+        opacity: 0;
+        scale: 0.8;
+        display: none;
+ 
+    
+    }  
+    100%{
+        opacity: 1;
+        scale: 1;
+
+    }
+
+}
+
+.likesCount{
+    margin-bottom: 15px;
+}
+
+.captions{
+    height: 30px;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
